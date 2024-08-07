@@ -1,0 +1,8 @@
+/* * {
+   overflow-x: hidden;
+ }
+  */
+ /* Ensure html and body have overflow-x hidden */
+ html, body {
+   overflow-x: hidden;
+ }

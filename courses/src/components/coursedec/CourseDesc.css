@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+@font-face {
+    font-family: "MyGilroy";
+    src: url("../../fonts/Gilroy-Bold.woff") format("woff");
+  }
+.classes .flex{
+    width: 100vw;
+    padding: 0 5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "MyWebFont";
+}
+.classes .left{
+    width: 100%;
+    min-height: 20vh;
+    /* background: red; */
+}
+.classes .flex .right{
+    min-height: 20vh;
+   width: 100%;
+   /* background: teal; */
+}
+.classes .flex h1{
+    font-size: 3vw;
+}
+.price {
+    /* font-size: 2vw; */
+    font-family: "MyGilroy";
+    font-size: 2.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.price span{
+    color: #10a37f;
+}.tags{
+    flex-shrink: 0;
+    font-size: 1.1em;
+    font-weight: 100;
+    text-transform: capitalize;
+    padding: 0.65em 1.5em;
+    border-radius: 5px;
+    background-color: #212121;
+    color: white;
+}
+
+.tags-div{
+    display: flex;
+    align-items: center ;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+.ques{
+    width: 90%;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+.classes .right img{
+    width: 76%;
+    border-radius: 13px;
+}
+@media (max-width:900px) {
+    .classes .flex {
+        width: 100vw;
+        padding: 0 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "MyWebFont";
+        flex-direction: column;
+    }
+    .tags {
+        flex-shrink: 0;
+        font-size: 1.1em;
+        font-weight: 100;
+        text-transform: capitalize;
+        padding: 0.65em 1em;
+        border-radius: 5px;
+        background-color: #212121;
+        color: white;
+    }
+    .classes .flex h1 {
+        font-size: 5vw;
+    }
+    .classes .left {
+        width: 100%;
+        min-height: 20vh;
+        /* background: red; */
+        margin-top: 10vw;
+    }
+}
+@media (min-width:900px) and (max-width:1100px){
+    .classes .flex {
+        width: 100vw;
+        padding: 0 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "MyWebFont";
+        flex-direction: column;
+    }
+    .tags {
+        flex-shrink: 0;
+        font-size: 1.1em;
+        font-weight: 100;
+        text-transform: capitalize;
+        padding: 0.65em 1em;
+        border-radius: 5px;
+        background-color: #212121;
+        color: white;
+    }
+    .classes .flex h1 {
+        font-size: 5vw;
+    }
+    .classes .left {
+        width: 100%;
+        min-height: 20vh;
+        /* background: red; */
+        margin-top: 10vw;
+    }
+    .classes .left {
+        width: 100%;
+        min-height: 20vh;
+        /* background: red; */
+        margin-top: 10vw;
+    }
+}

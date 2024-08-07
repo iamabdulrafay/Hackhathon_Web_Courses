@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../../fonts/Nue.woff") format("woff");
+  }
+
+
+.stats-flex{
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15vw;
+    overflow-x: visible;
+}
+.stats-flex h1{
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 1vw;
+    overflow-x: visible;
+    
+}
+.stats-flex p{
+    font-weight: 100;
+    font-size: 1.4vw;
+    font-family: "MyWebFont";
+}
+.stats-flex .right ,.stats-flex .left, .stats-flex .center{
+    overflow-x: visible;
+}
+
+@media (max-width:700px) {
+    .stats-flex h1 {
+        font-weight: 900;
+        font-size: 5vw;
+        line-height: 1vw;
+    }
+    .stats-flex p {
+        font-weight: 100;
+        font-size: 2.4vw;
+        font-family: "MyWebFont";
+    }
+}

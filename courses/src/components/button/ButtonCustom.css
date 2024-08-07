@@ -1,0 +1,35 @@
+.btn-new button{
+    font-size: 1.5vw;
+    padding: 12px 30px;
+    background: #428e7c;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    /* width: 100%; */
+}
+
+@media (max-width:600px) {
+    .btn-new button {
+        font-size: 4vw;
+        padding: 12px 30px;
+        background: #428e7c;
+        border: none;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        width: 100%;
+    }
+}
+@media (min-width:600px)  and (max-width:900px){
+    .btn-new button {
+        font-size: 4vw;
+        padding: 12px 30px;
+        background: #428e7c;
+        border: none;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        width: 100%;
+    }
+}

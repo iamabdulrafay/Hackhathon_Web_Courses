@@ -1,0 +1,118 @@
+/* ExpandableDropdown.css */
+
+@font-face {
+    font-family: "MyHelveHigh";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+  
+  .course-outline {
+    padding: 0 4vw;
+       font-family: "MyHelveHigh";
+  }
+  
+  .course-outline .main-heading {
+    font-size:20vw;
+    letter-spacing: -0.04em;
+    margin-left: -0.06em;
+    font-weight: 600;
+    line-height: 1em;
+    font-family: "MyHelveHigh";
+    text-transform: capitalize;
+    margin: 0vw 0 -5vw 0;
+  }
+  
+  .course-outline .subTitle {
+    font-size: 5.5em;
+    text-transform: capitalize;
+    line-height: 15vw;
+    opacity: 0.3;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+    font-family: "MyWebFont";
+  }
+  
+  /* Dropdown styles */
+  
+  .dropdown-container {
+    width: 100%;
+    margin: 20px auto;
+    border-top: 2px solid black;
+    padding: 3vw;
+    border-bottom: 2px solid black;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown-heading {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .dropdown-toggle {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    display: block;
+    width: auto;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-family: "MyHelveHigh";
+  }
+  
+  .dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-content.expanded {
+    max-height: 200px; /* Adjust according to content */
+    padding: 20px;
+  }
+  
+  .dropdown-title {
+    margin-top: 0;
+  }
+  
+  .dropdown-description {
+    margin: 0;
+  }
+  @media (max-width:750px) {
+    .course-outline .main-heading {
+      font-size: 15vw;
+      line-height: 21vw;
+      
+  }
+  .course-outline .subTitle {
+    font-size: 11vw;
+    
+}
+.dropdown-heading {
+  font-size: 4vw;
+  margin: 0;
+}
+.dropdown-toggle {
+ 
+  font-size: 3vw;
+ 
+  position: absolute;
+  right: -8px;
+  top: 10px;
+}
+  }
+
+  @media (min-width:750px) and (max-width:1200px) {
+    .dropdown-heading {
+      font-size: 4vw;
+      margin: 0;
+  }
+  }

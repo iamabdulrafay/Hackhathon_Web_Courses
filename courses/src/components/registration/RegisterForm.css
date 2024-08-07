@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "MyHelve";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+
+.r_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "MyHelve";
+    flex-direction: column;
+  padding:  7vw;
+}
+.form-input{
+   padding: 1.5vw ;
+}
+.form-input label{
+  font-size: 1.5vw;
+}
+.form-input input{
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    /* padding: 2vw 0; */
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.form{
+    /* background: red; */
+    overflow-y: hidden;
+}
+@media (max-width:700px) {
+  .form-input input {
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 58vw;
+    /* padding: 2vw 0; */
+    background: none;
+    margin-top: -0.5vw;
+    font-size: 4vw;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.form-input label {
+  font-size: 4.5vw;
+}
+.form-input label {
+  font-size: 4.5vw;
+}
+.r_form{
+  margin: 10vw 0 10vw 0;
+}
+}

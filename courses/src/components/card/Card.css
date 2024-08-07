@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "MyHelve";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vw; /* Adjust gap between cards as needed */
+    margin-top: 20vh;
+    padding: 0 4vw;
+  }
+  .card-main{
+    width: 26vw;
+  }
+.card{
+  
+    width: 27vw;
+    min-height: 30vh;
+    background: #F4F4F4;
+    color: rgb(0, 0, 0);
+    font-family: "MyHelve";
+    border-radius: 15px;
+    /* padding: 2vw 6vw;
+}
+.top{
+    height: 20vh;
+    /* background: rgba(214, 206, 206, 0.664); */
+    width: 100%;
+    
+}
+.top img{
+    width: 100%;
+height: auto;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.bottom{
+    min-height: 10vh;
+    /* background: rgb(0, 26, 255); */
+    width: 100%;
+    padding: 0.5vw 0;
+}
+.bottom h1{
+    font-size: 1.7vw;
+    font-weight: 200;
+    /* text-align: center; */
+}
+.bottom p{
+ padding-bottom: 21px;
+}.desc{
+    border-bottom: 1px solid black;
+    color: #585454e8;
+}
+.bottom .btn{
+    padding: 0.5vw 1vw;
+    margin: 0 2vw 1vw 0;
+    background: #D8D8D8;
+    border: none;
+    border-radius: 10px;
+}
+.instructor{
+    width: 100%;
+    background: #D8D8D8;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instructor p{
+    padding: 0 2vw;
+    font-size: 1.2vw;
+  
+}
+@media (max-width:700px) {
+    .card-main{
+        min-width: 80%;
+      }
+      .card-container {
+        padding: 0 2vw;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 6vw; /* Adjust gap between cards as needed */
+        overflow: auto;
+      }
+      .bottom .btn {
+        padding: 2.5vw 3vw;
+        margin: 0 2vw 1vw 0;
+       
+    }
+    .instructor p {
+        padding: 0 2vw;
+        font-size: 2.2vw;
+    }
+    
+}

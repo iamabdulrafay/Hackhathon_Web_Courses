@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "MyWebFonttNue1";
+    src: url("../../fonts/Nue.woff") format("woff");
+  }
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "MyWebFonttNue1";
+    flex-direction: column;
+    overflow-y:hidden ;
+    /* padding: 7vw 0; */
+}
+.hero h1 {
+    font-size: 5.5vw;
+    font-family: "MyWebFonttNue1";
+    /* font-weight: 100; */
+    letter-spacing: -0.2vw;
+    line-height: 5.7vw;
+    overflow-y: hidden;
+    overflow: visible;
+}
+.italic{
+    font-weight: lighter;font-style: italic;
+}
+.text-highlight{
+    color: #428e7c;
+}
+.hero button{
+    font-size: 1.2vw;
+    padding: 12px 30px;
+    background: #428e7c;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.hero button:hover{
+   
+    background: #5ba594;
+    
+}
+
+@media (max-width:700px) {
+    .hero h1 {
+        font-size: 9vw;
+        font-family: "MyWebFonttNue1";
+        /* font-weight: 100; */
+        letter-spacing: -0.2vw;
+        line-height: 8.7vw;
+    }
+    .btn button{
+        font-size: 5vw;
+        padding: 12px 30px;
+        background: #428e7c;
+        border: none;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+    }
+}

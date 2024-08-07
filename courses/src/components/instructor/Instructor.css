@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../../fonts/Poppins-600.woff2") format("woff2");
+  }
+.intructor{
+    width: 100%;
+    min-height: 70vh;
+    padding: 0 4vw;
+    background: #1F1F1F;
+    color: white;
+}
+.intructor>h1{
+    font-family: "MyWebFont";
+    font-size: 7em;
+    border-bottom: 1px solid white;
+    font-weight: 500;
+}
+.iamge-collage{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 20vh;
+}
+.iamge-collage img{
+    height: auto;
+    width: 80%;
+
+}
+.iamge-collage .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 20vh;
+    /* background: purple; */
+}
+.iamge-collage .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50vh;
+    min-height: 20vh;
+    /* background: rgb(0, 34, 128); */
+}
+.iamge-collage h1{
+    font-family: "MyWebFont";
+    padding: 2vw 0;
+    width: 80%;
+    border-bottom: 1px solid white;
+}
+.iamge-collage span{
+    margin-left: 2vw;
+    font-size: 1vw;
+}
+@media (max-width:700px) {
+    .intructor>h1 {
+        font-family: "MyWebFont";
+        font-size: 13vw;
+        border-bottom: 1px solid white;
+        font-weight: 500;
+    }
+    .iamge-collage{
+        display: flex;
+        align-items: normal;
+        justify-content: space-around;
+        width: 100%;
+        min-height: 20vh;
+    }
+    .iamge-collage .left {
+        display: inline;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 50%;
+        /* min-height: 20vh; */
+        /* background: purple; */
+    }
+    .iamge-collage span {
+        margin-left: 2vw;
+        font-size: 2vw;
+    }
+    .iamge-collage h1 {
+        font-family: "MyWebFont";
+        padding: 2vw 0;
+        width: 75%;
+        border-bottom: 1px solid white;
+        font-size: 4vw;
+    }
+    .iamge-collage .right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 15vh;
+        min-height: 20vh;
+        /* background: rgb(0, 34, 128); */
+    }
+}

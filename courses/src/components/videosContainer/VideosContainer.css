@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+.videos-container {
+    display: flex;
+    height: 100vh;
+    font-family: "MyWebFont";
+
+  }
+  
+  .video-list {
+    width: 40%;
+    /* border-right: 1px solid #ccc; */
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+  
+ 
+  
+  .video-player {
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .video-player video {
+    width: 100%;
+    height: auto;
+    /* height: 100%; */
+    border-radius: 12px;
+
+  }
+  
+  
+ .video-list video {
+    width: 100%;
+    height: auto;
+    height: 100%;
+    border-radius: 12px;
+
+  }
+  
+  .video-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    display: flex;
+    font-size: 1.2vw;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+
+  }
+  .video-list .left{
+    width: 60%;
+  }
+  .video-list .right{
+    width: 40%;
+  }
+  @media (max-width:700px) {
+    .videos-container {
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+  
+    }
+    
+    .video-player {
+      width: 90%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+  }
+  .video-list {
+    width: 100%;
+    margin-top: 10vw;
+    /* border-right: 1px solid #ccc; */
+    min-height: 20vh;
+    padding: 10px;
+    /* overflow-y: auto; */
+}
+.video-item{
+  font-size: 3vw;
+}
+  }

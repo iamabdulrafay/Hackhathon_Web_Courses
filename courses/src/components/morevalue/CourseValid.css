@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+
+  .course-valid{
+    width: 72%;
+    padding: 0 4vw;
+    overflow: hidden;
+  }
+  
+.course-valid .quote{
+    font-size: 10em;
+    letter-spacing: -0.06em;
+    text-transform: capitalize;
+    margin-left: -0.04em;
+    line-height: 0.98em;
+    font-family: "MyWebFont";
+    overflow: hidden;
+}
+.course-valid .subHeading{
+    /* margin-top: 1.5rem; */
+    font-weight: 300;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    font-family: "MyWebFont";
+    margin: -7vw 0 0 0;
+}
+.course-valid .subHeading span{
+    color: #02e797;
+}
+.start-learning{
+    margin-top: 2vw;
+    padding: 1em 2em;
+    border-radius: 3em;
+    /* font-size: 1.5em; */
+    border: none;
+    outline: none;
+    background-image: url(https://ik.imagekit.io/sheryians/BackEnd%20Donation/maskImage_W7a6T_MXGY.png?updatedAt=1715856788796);
+    background-position: 15% 80%;
+    background-size: 600%;
+    color: white;
+    cursor: pointer;
+    width: 17vw;
+    font-family: "MyWebFont";
+
+    text-align: center;
+}
+@media (max-width:700px) {
+    .course-valid .quote {
+        font-size: 13vw;
+        letter-spacing: -0.06em;
+        text-transform: capitalize;
+        margin-left: -0.04em;
+        line-height: 0.98em;
+        font-family: "MyWebFont";
+        overflow: hidden;
+    }
+    .course-valid .subHeading {
+        margin-top: 1.5rem;
+        font-size: 3.9vw;
+    }
+    .start-learning {
+        margin-top: 2vw;
+        padding: 1em 2em;
+        border-radius: 3em;
+        /* font-size: 1.5em; */
+        border: none;
+        outline: none;
+        background-image: url(https://ik.imagekit.io/sheryians/BackEnd%20Donation/maskImage_W7a6T_MXGY.png?updatedAt=1715856788796);
+        background-position: 15% 80%;
+        background-size: 600%;
+        color: white;
+        cursor: pointer;
+        width: auto;
+        font-family: "MyWebFont";
+        text-align: center;
+    }
+}

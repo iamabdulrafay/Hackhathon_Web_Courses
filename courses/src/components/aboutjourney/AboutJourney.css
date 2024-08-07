@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "MyHelveHigh";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+@font-face {
+    font-family: "MyHelevetica";
+    src: url("../../fonts/HelveticaNowDisplay-Light_M4nzWhve6k_k7HolyzL10.woff") format("woff");
+  }
+
+.about-journey .flex{
+    width: 99%;
+min-height: 20vh;
+    
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "MyHelveHigh";
+ 
+    gap: 4vw;
+}
+.about-journey .left{
+    width: 20%;
+    min-height: 20vh;
+    /* background: red; */
+}
+.about-journey .flex .right{
+    min-height: 20vh;
+   width: 70%;
+   /* background: teal; */
+}
+.about-journey .flex .left h1{
+    font-size: 1.7vw;
+}
+.about-journey .flex .right h1{
+    font-size: 3.5vw;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+.about-journey .flex .right p{
+    font-weight: 100;
+    font-size: 1.6em;
+    width: 87%;
+    font-family: "MyHelevetica"; 
+}
+
+.about-journey .right img{
+    width: 76%;
+    border-radius: 13px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 20vh;
+}
+.image img{
+    border-radius: 10px;
+    width: 80%;
+}
+.mainhedaing-about{
+    padding: 0 5vw;
+    font-size: 5vw;
+    font-family: "MyHelveHigh";
+}
+@media (max-width:700px) {
+    .mainhedaing-about {
+        padding: 0 5vw;
+        font-size: 8vw;
+        font-family: "MyHelveHigh";
+        margin-top: 7vh;
+    }
+    /*  */
+    .about-journey .flex {
+        width: 99%;
+        /* min-height: 12vh; */
+        padding: 0 5vw;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        font-family: "MyHelveHigh";
+        /* gap: 4vw; */
+        align-items: baseline;
+    }
+    .about-journey .left {
+        width: 20%;
+        /* min-height: 20vh; */
+        /* background: red; */
+        height: 11vh;
+    }
+    .about-journey .flex .left h1 {
+        font-size: 3vw;
+    }
+    .image {
+       
+        margin-bottom: 5vw;
+    }
+}

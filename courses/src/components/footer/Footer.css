@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+  
+.footer{
+    width: 96%;
+    min-height: 20vh;
+    margin-top: 8vw;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    font-family: "MyWebFont";
+    justify-content: center;
+    padding: 7vw 2vw;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.footer .one-row{
+    width: 40%;
+   /* background: #000; */
+   min-height: 20vh;
+}
+.footer .two-row{
+    width: 30%;
+   /* background: #307536; */
+   min-height: 20vh;
+   
+}
+.footer .three-row{
+    width: 30%;
+   /* background: #3b06cc; */
+   min-height: 20vh;
+}
+.footer .four-row{
+    width: 20%;
+   /* background: #b3ff00; */
+   min-height: 20vh;
+}
+.footer h1{
+    font-size: 1.1rem;
+}
+.link ,.three-row p{
+    color: rgba(0, 0, 0, 0.589);
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    display: block;
+    margin-top: 1vw;
+}
+.footer-bootom{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.6vw;
+font-family: "MyWebFont";
+}
+.footer-bootom h1{
+    font-size: 1vw;
+}
+@media (max-width:700px) {
+    .footer h1{
+        font-size: 3vw;
+    }
+    .link,.three-row p{
+        font-size: 2.5vw;
+    }
+    .footer-bootom h1{
+        font-size: calc(0.375rem + 0.5vw);
+    }
+}

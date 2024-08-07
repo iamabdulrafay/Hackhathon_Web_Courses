@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "MyHelve";
+    src: url("../../fonts/Helve.woff") format("woff");
+  }
+  .main-form{
+    width: 100%;
+    min-height: 50vh;
+    padding: 4vw;
+  }
+
+.r_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    font-family: "MyHelve";
+    flex-direction: column;
+}
+.form-input{
+   padding: 1.5vw ;
+}
+.form-input label{
+  font-size: 1.5vw;
+}
+.form-input input{
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    /* padding: 2vw 0; */
+    background: none;
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.form {
+  background: #c4e1ef;
+  padding: 5vw 3vw;
+  border-radius: 25px;
+}
+.asking{
+  font-size: 1.5vw;
+    color: #614c4c;
+}
+
+@media (max-width:900px) {
+  .form-input{
+    padding: 7vw;
+  }
+  .form-input input {
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 58vw;
+    /* padding: 2vw 0; */
+    background: none;
+    margin-top: -0.5vw;
+    font-size: 4vw;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.form-input label {
+  font-size: 4.5vw;
+}
+.form-input label {
+  font-size: 4.5vw;
+}
+.asking{
+  font-size: 3.4vw;
+}
+
+}
+/* @media (min-width:600px) and (max-width:700px) {
+  .r_form{
+    margin: 20vh 0 10vh 0;
+  }
+} */
